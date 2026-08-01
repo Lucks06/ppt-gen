@@ -101,7 +101,7 @@ def run_agent(leader_agent, query):
     code = response['messages'][-1].content[-1]['text']
     return code
 
-if all(ALL_API)
+if all(ALL_API):
   leader_agent = create_agent(
       model = model,
       tools = [search_latest_info, 
