@@ -20,7 +20,7 @@ st.sidebar.title("GIVE API KEYS")
 GOOGLE_API_KEY = st.sidebar.text_input("Gemini-API",type = "password")
 TAVILY_API_KEY = st.sidebar.text_input("Tavily-API",type = "password")
 
-all_API = [GOOGLE_API_KEY,,TAVILY_API_KEY ]
+all_API = [GOOGLE_API_KEY,TAVILY_API_KEY ]
 
 if not all(all_API):
     st.error("Must pass all API keys")
