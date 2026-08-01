@@ -106,7 +106,7 @@ if all(ALL_API):
       model = model,
       tools = [search_latest_info, 
              #generate_image
-        ])
+              ])
   #leader_agent
 else:
   st.info("Give all API-KEYS First to load Agent")
