@@ -139,7 +139,7 @@ if (user_input):
                     """Give Latest News Related to Given user Query
                        in Dynamic HTML, Output with cards Design Format.
                        Strict HTML Output, No Any markdowns Repsonse
-                       User Query: """ + user_input)
+                       User Query: """ + user_input
 
                 response = leader_agent.invoke({"messages": [{"role": "user","content": prompt}]})
 
